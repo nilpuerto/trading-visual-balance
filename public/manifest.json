@@ -1,0 +1,18 @@
+
+{
+  "name": "Trading Puerto",
+  "short_name": "Trading Puerto",
+  "description": "Aplicación de seguimiento de trading",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/lovable-uploads/4a8c37d5-64da-4702-a18b-7ff154c7fa1c.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

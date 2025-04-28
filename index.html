@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trading Puerto</title>
+    <meta name="description" content="Trading Puerto - Aplicación de seguimiento de trading" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="manifest" href="./manifest.json" /> <!-- Cambiado a ruta relativa -->
+    <meta property="og:title" content="Trading Puerto" />
+    <meta property="og:description" content="Aplicación de seguimiento de trading" />
+    <meta property="og:type" content="website" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Trading Puerto">
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script> <!-- Cambiado a ruta relativa -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./service-worker.js'); <!-- Cambiado a ruta relativa -->
+        });
+      }
+    </script>
+  </body>
+</html>
